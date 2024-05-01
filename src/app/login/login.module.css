@@ -1,0 +1,22 @@
+
+.Container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin: 0;
+    padding:0;
+}
+
+.Card{
+    width: 400px;
+    height: 400px;
+}
+.CardContent{
+    display: flex;
+
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+}
